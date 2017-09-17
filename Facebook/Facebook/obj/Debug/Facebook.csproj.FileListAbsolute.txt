@@ -1,0 +1,10 @@
+C:\Users\Szymon\Documents\Visual Studio 2017\Projects\Facebook\Facebook\bin\Debug\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Szymon\Documents\Visual Studio 2017\Projects\Facebook\Facebook\bin\Debug\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Szymon\Documents\Visual Studio 2017\Projects\Facebook\Facebook\bin\Debug\Facebook.exe.config
+C:\Users\Szymon\Documents\Visual Studio 2017\Projects\Facebook\Facebook\bin\Debug\Facebook.exe
+C:\Users\Szymon\Documents\Visual Studio 2017\Projects\Facebook\Facebook\bin\Debug\Facebook.pdb
+C:\Users\Szymon\Documents\Visual Studio 2017\Projects\Facebook\Facebook\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Szymon\Documents\Visual Studio 2017\Projects\Facebook\Facebook\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Szymon\Documents\Visual Studio 2017\Projects\Facebook\Facebook\obj\Debug\Facebook.csprojResolveAssemblyReference.cache
+C:\Users\Szymon\Documents\Visual Studio 2017\Projects\Facebook\Facebook\obj\Debug\Facebook.exe
+C:\Users\Szymon\Documents\Visual Studio 2017\Projects\Facebook\Facebook\obj\Debug\Facebook.pdb

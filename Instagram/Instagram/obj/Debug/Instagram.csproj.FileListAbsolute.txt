@@ -1,0 +1,8 @@
+c:\users\szymon\documents\visual studio 2017\Projects\Instagram\Instagram\bin\Debug\Instagram.exe.config
+c:\users\szymon\documents\visual studio 2017\Projects\Instagram\Instagram\bin\Debug\Instagram.exe
+c:\users\szymon\documents\visual studio 2017\Projects\Instagram\Instagram\bin\Debug\Instagram.pdb
+c:\users\szymon\documents\visual studio 2017\Projects\Instagram\Instagram\bin\Debug\Newtonsoft.Json.dll
+c:\users\szymon\documents\visual studio 2017\Projects\Instagram\Instagram\bin\Debug\Newtonsoft.Json.xml
+c:\users\szymon\documents\visual studio 2017\Projects\Instagram\Instagram\obj\Debug\Instagram.csprojResolveAssemblyReference.cache
+c:\users\szymon\documents\visual studio 2017\Projects\Instagram\Instagram\obj\Debug\Instagram.exe
+c:\users\szymon\documents\visual studio 2017\Projects\Instagram\Instagram\obj\Debug\Instagram.pdb
