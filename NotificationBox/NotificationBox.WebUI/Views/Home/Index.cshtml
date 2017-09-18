@@ -1,0 +1,25 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
+    <link href="~/Content/ErrorStyles.css" rel="stylesheet" />
+    <title>Wybor</title>
+</head>
+<body>
+    <label>Wybierz serwis który chcesz dodać do swojego pudełka.</label><br/>
+    <div class="btn-group">
+        <div>@Html.ActionLink("Facebook", "FacebookAuthorization", null, new { @class = "btn btn-primary btn-block" })</div>
+        <div>@Html.ActionLink("Instagram", "AuthorizeInstagramUser", "Instagram", null, new { @class = "btn btn-warning btn-block" })</div>
+        <div>@Html.ActionLink("Gmail", "GmailAuthorization", null, new { @class = "btn btn-danger btn-block" })</div>
+        <div>@Html.ActionLink("Twitter", "TwitterAuthorization", null, new { @class = "btn btn-success btn-block" })</div>
+    </div>
+</body>
+</html>
