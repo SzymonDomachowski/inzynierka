@@ -12,5 +12,6 @@ namespace NotificationBox.Domain.Entities
         public static string ClientSecret = "9efd07fa70b247dfb290eab05b1f067d";
         public static string RedirectUri = "http://localhost:53754/Instagram/InstagramAuthorization";
         public static string Code = "";
+        public static int TempId;
     }
 }

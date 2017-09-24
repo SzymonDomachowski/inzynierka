@@ -11,7 +11,8 @@ namespace NotificationBox.Domain.Abstract
     {
         IEnumerable<User> Users { get; }
 
-        void AddUser(dynamic data);
-        int? FindUser(string accessToken);
+        void AddUser(dynamic data,int Id);
+        void AddAccount(User user);
+
     }
 }

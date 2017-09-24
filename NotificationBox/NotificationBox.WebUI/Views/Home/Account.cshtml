@@ -1,0 +1,60 @@
+﻿@model NotificationBox.Domain.Entities.User
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml"; 
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Dodawanie</title>
+</head>
+<body>
+        @using (Html.BeginForm("Account", "Home"))
+        {
+            <div class="panel-body">
+                @Html.HiddenFor(m => m.UserID)
+                @foreach (var property in ViewData.ModelMetadata.Properties)
+                {
+                    if (property.PropertyName == "Login" || property.PropertyName == "Password")
+                    {
+                        if (property.PropertyName == "Password")
+                        {
+                            //KAROOOOOOL
+                            //TUTAJ MUSISZ ZROBIC POWTORZ HASLO OPCJE W JS, BO JA PO PROSTU POWTORZYLEM KOD xdddd
+                            <div class="form-group">
+                                <label>@property.PropertyName</label>
+
+                                @Html.TextBox(property.PropertyName, null, new { @class = "form-control", type = "password" })
+
+                                @Html.ValidationMessage(property.PropertyName)
+                            </div>
+                            <div class="form-group">
+                                <label>Powtorz haslo:</label>
+
+                                @Html.TextBox(property.PropertyName, null, new { @class = "form-control", type = "password" })
+
+                                @Html.ValidationMessage(property.PropertyName)
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="form-group">
+                                <label>@property.PropertyName</label>
+
+                                @Html.TextBox(property.PropertyName, null, new { @class = "form-control"})
+
+                                @Html.ValidationMessage(property.PropertyName)
+                            </div>
+                        }
+
+                    }
+                }
+            </div>
+            <div class="panel-footer">
+                <input type="submit" value="Zapisz" class="btn btn-primary" />
+            </div>
+        }
+</body>
+</html>

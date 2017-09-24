@@ -12,7 +12,9 @@ namespace NotificationBox.Domain.Entities
         public string Name { get; set; }
         public string FacebookToken { get; set; }
         public string InstagramToken { get; set; }
-        public string InstagramName { get; set; }
+        public string Login { get; set; }
+        public string Password { get; set; }
+        
         //musisz pododawac swoje 
     }
 }

@@ -6,3 +6,19 @@ c:\users\szymon\documents\visual studio 2017\Projects\Instagram\Instagram\bin\De
 c:\users\szymon\documents\visual studio 2017\Projects\Instagram\Instagram\obj\Debug\Instagram.csprojResolveAssemblyReference.cache
 c:\users\szymon\documents\visual studio 2017\Projects\Instagram\Instagram\obj\Debug\Instagram.exe
 c:\users\szymon\documents\visual studio 2017\Projects\Instagram\Instagram\obj\Debug\Instagram.pdb
+C:\Users\Szymon\Documents\Visual Studio 2017\Projects\Praca Inzynierska\Instagram\Instagram\bin\Debug\Instagram.exe.config
+C:\Users\Szymon\Documents\Visual Studio 2017\Projects\Praca Inzynierska\Instagram\Instagram\bin\Debug\Instagram.exe
+C:\Users\Szymon\Documents\Visual Studio 2017\Projects\Praca Inzynierska\Instagram\Instagram\bin\Debug\Instagram.pdb
+C:\Users\Szymon\Documents\Visual Studio 2017\Projects\Praca Inzynierska\Instagram\Instagram\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Szymon\Documents\Visual Studio 2017\Projects\Praca Inzynierska\Instagram\Instagram\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Szymon\Documents\Visual Studio 2017\Projects\Praca Inzynierska\Instagram\Instagram\obj\Debug\Instagram.csprojResolveAssemblyReference.cache
+C:\Users\Szymon\Documents\Visual Studio 2017\Projects\Praca Inzynierska\Instagram\Instagram\obj\Debug\Instagram.exe
+C:\Users\Szymon\Documents\Visual Studio 2017\Projects\Praca Inzynierska\Instagram\Instagram\obj\Debug\Instagram.pdb
+C:\Users\Szymon\Source\Repos\inzynierka\Instagram\Instagram\bin\Debug\Instagram.exe.config
+C:\Users\Szymon\Source\Repos\inzynierka\Instagram\Instagram\bin\Debug\Instagram.exe
+C:\Users\Szymon\Source\Repos\inzynierka\Instagram\Instagram\bin\Debug\Instagram.pdb
+C:\Users\Szymon\Source\Repos\inzynierka\Instagram\Instagram\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Szymon\Source\Repos\inzynierka\Instagram\Instagram\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Szymon\Source\Repos\inzynierka\Instagram\Instagram\obj\Debug\Instagram.csprojResolveAssemblyReference.cache
+C:\Users\Szymon\Source\Repos\inzynierka\Instagram\Instagram\obj\Debug\Instagram.exe
+C:\Users\Szymon\Source\Repos\inzynierka\Instagram\Instagram\obj\Debug\Instagram.pdb

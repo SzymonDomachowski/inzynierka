@@ -164,6 +164,10 @@
     <Content Include="Views\Home\FacebookAuthorization.cshtml" />
     <Content Include="Views\Instagram\InstagramAuthorization.cshtml" />
     <Content Include="Views\Home\UserList.cshtml" />
+    <Content Include="Views\Home\Account.cshtml" />
+    <Content Include="Views\Home\Decision.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\Login.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

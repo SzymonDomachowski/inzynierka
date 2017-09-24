@@ -13,7 +13,7 @@ namespace NotificationBox.WebUI.Controllers
             this.repository = repo;
         }
 
-        public ViewResult InstagramAuthorization()
+        public ActionResult InstagramAuthorization()
         {
             RequestInstagramToken requestToken = new RequestInstagramToken();
 
@@ -21,10 +21,9 @@ namespace NotificationBox.WebUI.Controllers
 
             dynamic data = requestToken.ReturnInstagramToken();
 
-            repository.AddUser(data);
+            repository.AddUser(data,InstagramApp.TempId);
 
-            return View();
-
+            return RedirectToAction("UserList","Home",repository.Users);
         }
 
         public ActionResult AuthorizeInstagramUser()

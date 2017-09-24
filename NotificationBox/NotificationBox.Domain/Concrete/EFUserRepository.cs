@@ -17,41 +17,39 @@ namespace NotificationBox.Domain.Concrete
             get { return context.Users; }
         }
 
-        public int? FindUser(string accessToken)
-        {
-            User dbEntry = context.Users.Find(accessToken);
-            if(dbEntry == null)
-            {
-                return null;
-            }
-            else
-            {
-                return dbEntry.UserID;
-            }
-        }
+        //public int? FindUser(string accessToken)
+        //{
+        //    User dbEntry = context.Users.Find(accessToken);
+        //    if(dbEntry == null)
+        //    {
+        //        return null;
+        //    }
+        //    else
+        //    {
+        //        return dbEntry.UserID;
+        //    }
+        //}
 
-        public void AddUser(dynamic data)
+        public void AddUser(dynamic data, int Id)
         {
-            string accessToken = data.access_token;
-            string username = data.user.username;
-            //szukamy w bazie po nazwie uzytkownika danego portalu w innych portalach wystarczy dodac LUB do LINQ ponizej
-            User dbEntry = context.Users.FirstOrDefault(u => u.InstagramName == username);
+            User dbEntry = context.Users.Find(Id);
 
             if (dbEntry != null)
             {
                 dbEntry.InstagramToken = data.access_token;
             }
-            else
-            {
-                User user = new User();
-                user.InstagramName = data.user.username;
-                user.InstagramToken = data.access_token;
 
+            context.SaveChanges();
+        }
+
+        public void AddAccount(User user)
+        {
+            if (user.UserID == 0)
+            {
                 context.Users.Add(user);
             }
 
             context.SaveChanges();
-
         }
 
     }

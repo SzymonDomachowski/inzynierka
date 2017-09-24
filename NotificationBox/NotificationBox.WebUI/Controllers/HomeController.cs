@@ -33,6 +33,49 @@ namespace NotificationBox.WebUI.Controllers
             return View(repository.Users);
         }
 
+        public ViewResult Account()
+        {
+            User user = new User();
+            return View(user);
+        }
 
+        [HttpPost]
+        public ActionResult Account(User user)
+        {
+            if (ModelState.IsValid)
+            {
+                repository.AddAccount(user);
+                TempData["message"] = string.Format("Zapisano {0}", user.Login);
+                return RedirectToAction("Decision",new { Id = user.UserID});
+            }
+            else
+            {
+                return View(user);
+            }
+        }
+
+        public ViewResult Decision(int Id)
+        {
+            InstagramApp.TempId = Id;
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Login(string Login,string Password)
+        {
+            User user = repository.Users.FirstOrDefault(u => u.Login == Login && u.Password == Password);
+
+            if(user == null)
+            {
+                TempData["message"] = string.Format("Podano zly login lub haslo");             
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                TempData["message"] = string.Format("Zalogowano");
+                return RedirectToAction("Decision",new {id = user.UserID });
+            }
+            
+        }
     }
 }

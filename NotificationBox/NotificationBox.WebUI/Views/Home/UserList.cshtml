@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<NotificationBox.Domain.Entities.User>
 
 @{
-    Layout = null;
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <!DOCTYPE html>
@@ -9,9 +9,6 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <link href="~/Content/bootstrap.css" rel="stylesheet" />
-    <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
-    <link href="~/Content/ErrorStyles.css" rel="stylesheet" />
     <title>UserList</title>
 </head>
 <body>
@@ -24,9 +21,10 @@
                 <tr>
                     <th>ID</th>
                     <th>Name</th>
-                    <th>InstaUser</th>
+                    <th>Login</th>
                     <th>InstaToken</th>
                     <th>FacebookToken</th>
+                    <th>Password</th>
                     <th>Akcje</th>
                 </tr>
                 @foreach (var item in Model)
@@ -34,9 +32,10 @@
                     <tr>
                         <td>@item.UserID</td>
                         <td>@item.Name</td>
-                        <td>@item.InstagramName</td>
+                        <td>@item.Login</td>
                         <td>@item.InstagramToken</td>
                         <td>@item.FacebookToken</td>
+                        <th>@item.Password</th>
                         <td>
 
                         </td>
